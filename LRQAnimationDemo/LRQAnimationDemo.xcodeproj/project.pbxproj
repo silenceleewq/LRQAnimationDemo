@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F891380206339FB0075B1AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F89137F206339FB0075B1AC /* AppDelegate.m */; };
+		1F891383206339FB0075B1AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F891382206339FB0075B1AC /* ViewController.m */; };
+		1F891386206339FB0075B1AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F891384206339FB0075B1AC /* Main.storyboard */; };
+		1F891388206339FB0075B1AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F891387206339FB0075B1AC /* Assets.xcassets */; };
+		1F89138B206339FB0075B1AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F891389206339FB0075B1AC /* LaunchScreen.storyboard */; };
+		1F89138E206339FB0075B1AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F89138D206339FB0075B1AC /* main.m */; };
+		1F891398206339FB0075B1AC /* LRQAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F891397206339FB0075B1AC /* LRQAnimationDemoTests.m */; };
+		29C41418A4E655A7D3BDFA35 /* libPods-LRQAnimationDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFE2EEC6752EA928F8EB8B4 /* libPods-LRQAnimationDemoTests.a */; };
+		4A398C0741BCAFB8AB3FD4F0 /* libPods-LRQAnimationDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E680BE0828E70BFC5DF3E2F8 /* libPods-LRQAnimationDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F891394206339FB0075B1AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F891373206339FB0075B1AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F89137A206339FB0075B1AC;
+			remoteInfo = LRQAnimationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F89137B206339FB0075B1AC /* LRQAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRQAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F89137E206339FB0075B1AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F89137F206339FB0075B1AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F891381206339FB0075B1AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F891382206339FB0075B1AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F891385206339FB0075B1AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F891387206339FB0075B1AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F89138A206339FB0075B1AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F89138C206339FB0075B1AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F89138D206339FB0075B1AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F891393206339FB0075B1AC /* LRQAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRQAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F891397206339FB0075B1AC /* LRQAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRQAnimationDemoTests.m; sourceTree = "<group>"; };
+		1F891399206339FB0075B1AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CFE2EEC6752EA928F8EB8B4 /* libPods-LRQAnimationDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LRQAnimationDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5185776009616763F4592488 /* Pods-LRQAnimationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRQAnimationDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LRQAnimationDemo/Pods-LRQAnimationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9BC83B30F9C3AF6B00ED7DBC /* Pods-LRQAnimationDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRQAnimationDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LRQAnimationDemoTests/Pods-LRQAnimationDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D5B6C473A5D8E9133F5E0C2E /* Pods-LRQAnimationDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRQAnimationDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LRQAnimationDemoTests/Pods-LRQAnimationDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E680BE0828E70BFC5DF3E2F8 /* libPods-LRQAnimationDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LRQAnimationDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90C534C2FAB63311E633270 /* Pods-LRQAnimationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRQAnimationDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LRQAnimationDemo/Pods-LRQAnimationDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F891378206339FB0075B1AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A398C0741BCAFB8AB3FD4F0 /* libPods-LRQAnimationDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F891390206339FB0075B1AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C41418A4E655A7D3BDFA35 /* libPods-LRQAnimationDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13C63E27E8AD0BDED4578DF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E680BE0828E70BFC5DF3E2F8 /* libPods-LRQAnimationDemo.a */,
+				3CFE2EEC6752EA928F8EB8B4 /* libPods-LRQAnimationDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F891372206339FB0075B1AC = {
+			isa = PBXGroup;
+			children = (
+				1F89137D206339FB0075B1AC /* LRQAnimationDemo */,
+				1F891396206339FB0075B1AC /* LRQAnimationDemoTests */,
+				1F89137C206339FB0075B1AC /* Products */,
+				FC331A355535853D4FD593AE /* Pods */,
+				13C63E27E8AD0BDED4578DF5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F89137C206339FB0075B1AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F89137B206339FB0075B1AC /* LRQAnimationDemo.app */,
+				1F891393206339FB0075B1AC /* LRQAnimationDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F89137D206339FB0075B1AC /* LRQAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1F89137E206339FB0075B1AC /* AppDelegate.h */,
+				1F89137F206339FB0075B1AC /* AppDelegate.m */,
+				1F891381206339FB0075B1AC /* ViewController.h */,
+				1F891382206339FB0075B1AC /* ViewController.m */,
+				1F891384206339FB0075B1AC /* Main.storyboard */,
+				1F891387206339FB0075B1AC /* Assets.xcassets */,
+				1F891389206339FB0075B1AC /* LaunchScreen.storyboard */,
+				1F89138C206339FB0075B1AC /* Info.plist */,
+				1F89138D206339FB0075B1AC /* main.m */,
+			);
+			path = LRQAnimationDemo;
+			sourceTree = "<group>";
+		};
+		1F891396206339FB0075B1AC /* LRQAnimationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F891397206339FB0075B1AC /* LRQAnimationDemoTests.m */,
+				1F891399206339FB0075B1AC /* Info.plist */,
+			);
+			path = LRQAnimationDemoTests;
+			sourceTree = "<group>";
+		};
+		FC331A355535853D4FD593AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5185776009616763F4592488 /* Pods-LRQAnimationDemo.debug.xcconfig */,
+				F90C534C2FAB63311E633270 /* Pods-LRQAnimationDemo.release.xcconfig */,
+				D5B6C473A5D8E9133F5E0C2E /* Pods-LRQAnimationDemoTests.debug.xcconfig */,
+				9BC83B30F9C3AF6B00ED7DBC /* Pods-LRQAnimationDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F89137A206339FB0075B1AC /* LRQAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F89139C206339FB0075B1AC /* Build configuration list for PBXNativeTarget "LRQAnimationDemo" */;
+			buildPhases = (
+				0FE13FB22C02B99FC60CDE44 /* [CP] Check Pods Manifest.lock */,
+				1F891377206339FB0075B1AC /* Sources */,
+				1F891378206339FB0075B1AC /* Frameworks */,
+				1F891379206339FB0075B1AC /* Resources */,
+				34C583BB5BEB9EA6E4E386A9 /* [CP] Embed Pods Frameworks */,
+				E860E4EAA44AFC4DE52D7030 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LRQAnimationDemo;
+			productName = LRQAnimationDemo;
+			productReference = 1F89137B206339FB0075B1AC /* LRQAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F891392206339FB0075B1AC /* LRQAnimationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F89139F206339FB0075B1AC /* Build configuration list for PBXNativeTarget "LRQAnimationDemoTests" */;
+			buildPhases = (
+				C63790BEDA8B55E3B528F313 /* [CP] Check Pods Manifest.lock */,
+				1F89138F206339FB0075B1AC /* Sources */,
+				1F891390206339FB0075B1AC /* Frameworks */,
+				1F891391206339FB0075B1AC /* Resources */,
+				8F514705C0C3497382606D91 /* [CP] Embed Pods Frameworks */,
+				CC9A1B76E0EE3AE7D08DFAA2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F891395206339FB0075B1AC /* PBXTargetDependency */,
+			);
+			name = LRQAnimationDemoTests;
+			productName = LRQAnimationDemoTests;
+			productReference = 1F891393206339FB0075B1AC /* LRQAnimationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F891373206339FB0075B1AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lirenqiang;
+				TargetAttributes = {
+					1F89137A206339FB0075B1AC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1F891392206339FB0075B1AC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1F89137A206339FB0075B1AC;
+					};
+				};
+			};
+			buildConfigurationList = 1F891376206339FB0075B1AC /* Build configuration list for PBXProject "LRQAnimationDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F891372206339FB0075B1AC;
+			productRefGroup = 1F89137C206339FB0075B1AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F89137A206339FB0075B1AC /* LRQAnimationDemo */,
+				1F891392206339FB0075B1AC /* LRQAnimationDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F891379206339FB0075B1AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F89138B206339FB0075B1AC /* LaunchScreen.storyboard in Resources */,
+				1F891388206339FB0075B1AC /* Assets.xcassets in Resources */,
+				1F891386206339FB0075B1AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F891391206339FB0075B1AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FE13FB22C02B99FC60CDE44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LRQAnimationDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34C583BB5BEB9EA6E4E386A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LRQAnimationDemo/Pods-LRQAnimationDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F514705C0C3497382606D91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LRQAnimationDemoTests/Pods-LRQAnimationDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C63790BEDA8B55E3B528F313 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LRQAnimationDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC9A1B76E0EE3AE7D08DFAA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LRQAnimationDemoTests/Pods-LRQAnimationDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E860E4EAA44AFC4DE52D7030 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LRQAnimationDemo/Pods-LRQAnimationDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F891377206339FB0075B1AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F891383206339FB0075B1AC /* ViewController.m in Sources */,
+				1F89138E206339FB0075B1AC /* main.m in Sources */,
+				1F891380206339FB0075B1AC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F89138F206339FB0075B1AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F891398206339FB0075B1AC /* LRQAnimationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F891395206339FB0075B1AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F89137A206339FB0075B1AC /* LRQAnimationDemo */;
+			targetProxy = 1F891394206339FB0075B1AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F891384206339FB0075B1AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F891385206339FB0075B1AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F891389206339FB0075B1AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F89138A206339FB0075B1AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F89139A206339FB0075B1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F89139B206339FB0075B1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F89139D206339FB0075B1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5185776009616763F4592488 /* Pods-LRQAnimationDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5G9R9WR6W;
+				INFOPLIST_FILE = LRQAnimationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myOwn.www.LRQAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F89139E206339FB0075B1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F90C534C2FAB63311E633270 /* Pods-LRQAnimationDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5G9R9WR6W;
+				INFOPLIST_FILE = LRQAnimationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myOwn.www.LRQAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F8913A0206339FB0075B1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5B6C473A5D8E9133F5E0C2E /* Pods-LRQAnimationDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5G9R9WR6W;
+				INFOPLIST_FILE = LRQAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myOwn.www.LRQAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LRQAnimationDemo.app/LRQAnimationDemo";
+			};
+			name = Debug;
+		};
+		1F8913A1206339FB0075B1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BC83B30F9C3AF6B00ED7DBC /* Pods-LRQAnimationDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5G9R9WR6W;
+				INFOPLIST_FILE = LRQAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myOwn.www.LRQAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LRQAnimationDemo.app/LRQAnimationDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F891376206339FB0075B1AC /* Build configuration list for PBXProject "LRQAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F89139A206339FB0075B1AC /* Debug */,
+				1F89139B206339FB0075B1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F89139C206339FB0075B1AC /* Build configuration list for PBXNativeTarget "LRQAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F89139D206339FB0075B1AC /* Debug */,
+				1F89139E206339FB0075B1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F89139F206339FB0075B1AC /* Build configuration list for PBXNativeTarget "LRQAnimationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8913A0206339FB0075B1AC /* Debug */,
+				1F8913A1206339FB0075B1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F891373206339FB0075B1AC /* Project object */;
+}
